@@ -8,6 +8,7 @@ public class BasicOperations {
         Scanner in = new Scanner(System.in).useLocale(Locale.US);
         int a = in.nextInt();
         int b = in.nextInt();
+
         int resta = a - b;
 
         System.out.println("Resta: " + resta);
