@@ -11,5 +11,13 @@ public class Statistics {
         for (int i = 0; i < nombres.length; i++) {
             nombres[i] = in.nextInt();
         }
+
+        int maxim = nombres;
+        for (int i = 0; i < nombres.length; i++) {
+            if (nombres[i] > maxim) {
+                maxim = nombres[i];
+            }
+        }
+        System.out.println("Màxim: " + maxim);
     }
 }
