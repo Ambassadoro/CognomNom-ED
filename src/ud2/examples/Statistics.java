@@ -1,4 +1,4 @@
-package ud2.exercises;
+package ud2.examples;
 
 import java.util.Scanner;
 import java.util.Locale;
@@ -11,11 +11,5 @@ public class Statistics {
         for (int i = 0; i < nombres.length; i++) {
             nombres[i] = in.nextInt();
         }
-
-        int suma = 0;
-        for (int i = 0; i < nombres.length; i++) {
-            suma += nombres[i];
-        }
-        System.out.println("Suma: " + suma);
     }
 }
