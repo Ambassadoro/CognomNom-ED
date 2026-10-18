@@ -11,5 +11,13 @@ public class Statistics {
         for (int i = 0; i < nombres.length; i++) {
             nombres[i] = in.nextInt();
         }
+
+        int minim = nombres;
+        for (int i = 0; i < nombres.length; i++) {
+            if (nombres[i] < minim) {
+                minim = nombres[i];
+            }
+        }
+        System.out.println("Mínim: " + minim);
     }
 }
