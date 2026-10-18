@@ -11,5 +11,12 @@ public class Statistics {
         for (int i = 0; i < nombres.length; i++) {
             nombres[i] = in.nextInt();
         }
+
+        int suma = 0;
+        for (int i = 0; i < nombres.length; i++) {
+            suma += nombres[i];
+        }
+        double mitjana = (double) suma / nombres.length;
+        System.out.println("Mitjana: " + mitjana);
     }
 }
