@@ -19,5 +19,14 @@ public class Statistics {
             }
         }
         System.out.println("Màxim: " + maxim);
+
+        int minim = nombres;
+        for (int i = 0; i < nombres.length; i++) {
+            if (nombres[i] < minim) {
+                minim = nombres[i];
+            }
+        }
+        System.out.println("Mínim: " + minim);
+
     }
 }
