@@ -10,10 +10,14 @@ public class BasicOperations {
         int b = in.nextInt();
 
 
+
         int suma = a + b;
         System.out.println("Suma: " + suma);
 
         int resta = a - b;
         System.out.println("Resta: " + resta);
+
+        int multiplicacio = a * b;
+        System.out.println("Multiplicació: " + multiplicacio);
     }
 }
